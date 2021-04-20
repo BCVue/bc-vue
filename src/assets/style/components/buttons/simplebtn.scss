@@ -1,0 +1,67 @@
+@import "../../base.scss";
+
+.bc-btn1 {
+    width: fit-content;
+    min-width: 80px;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $padding-4;
+    margin: $margin-1;
+    border: none;
+    font-size: 14px;
+    background: #f14054 !important;
+    color: white;
+    cursor: pointer;
+    transition: $transition-2;
+    position: relative;
+    border-radius: $radius-3;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px -10px #f12b42;
+    &:active {
+        box-shadow: 0px 5px 30px -10px #f12b42;
+    }
+    .btn-ripple1 {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.082);
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        transition: $transition-4;
+        opacity: 1;
+    }
+}
+
+.bc-btn2 {
+    width: fit-content;
+    min-width: 80px;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $padding-4;
+    margin: $margin-1;
+    border: none;
+    font-size: 14px;
+    background: #6640f1 !important;
+    color: white;
+    cursor: pointer;
+    transition: $transition-2;
+    position: relative;
+    border-radius: $radius-3;
+    overflow: hidden;
+    box-shadow: 0px 10px 30px -10px #5636ca;
+    &:active {
+        box-shadow: 0px 5px 30px -10px #5636ca;
+    }
+    .btn-ripple2 {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.082);
+        width: 1rem;
+        height: 1rem;
+        border-radius: 100%;
+        transition: $transition-4;
+        opacity: 1;
+    }
+}
