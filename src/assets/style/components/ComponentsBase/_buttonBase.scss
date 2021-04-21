@@ -1,6 +1,7 @@
-.btn{
+@import '../../base';
+.btn {
     border: none;
-    padding: 15px 18px;
+    padding: $padding-5 padding-6;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: $radius-2;
 }

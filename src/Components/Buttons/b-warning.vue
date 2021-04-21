@@ -1,15 +1,15 @@
 <template>
-
+    <button-base :Text="{Text}" :Class="warning"/>
 </template>
 
 <script>
-
 import ButtonBase from '../../ComponentsBase/ButtonBase.vue'
 
+
 export default {
-     props:{
-       OutLineColor:String,
-       Text:String
+  components: { ButtonBase },
+    props:{
+        Text:String
    }
 }
 </script>
