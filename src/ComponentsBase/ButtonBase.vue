@@ -4,6 +4,8 @@
 
 <script>
 export default {
-    
+    props:{
+        Text:String
+    }
 }
 </script>
