@@ -1,5 +1,7 @@
 <template>
-
+    <div>
+        <button class="">{{Text}}</button>
+    </div>
 </template>
 
 <script>
@@ -9,3 +11,8 @@ export default {
     }
 }
 </script>
+
+<style >
+
+</style>
+
